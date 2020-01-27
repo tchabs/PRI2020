@@ -1,0 +1,24 @@
+extends layout
+block content
+    .w3-container
+          
+        header.w3-card-4.w3-blue-grey
+            h1.w3-center CLAV - Classificação e Avaliação da Informação Pública
+        
+        .w3-container 
+          h2.w3-center Lista de legislação 
+        table.w3-table-all
+            tr
+                th.w3-center Data
+                th.w3-center Tipo
+                th.w3-center Numero
+                th.w3-center Súmario
+                th.w3-center Diploma
+            each tip in lista
+                tr
+                    td.w3-center= tip.data
+                    td.w3-center= tip.tipo
+                    td.w3-center= tip.numero
+                    td.w3-center= tip.sumario
+                    td.w3-center
+                      a(href="/legislacao/"+tip.id) = diploma

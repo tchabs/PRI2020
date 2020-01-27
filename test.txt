@@ -1,0 +1,12 @@
+Teste 
+
+--Quantos Diplomas Legislativos estão catalogados? 
+1624
+
+--Quantos diplomas do tipo "Portaria" estão catalogados?
+
+
+--Que processos são regulados pelo diploma "Lei 9/2009"?
+
+
+--Que diplomas legislativos estão associados ao processo "c300.10.005"?
